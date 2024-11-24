@@ -1,8 +1,35 @@
 body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
     display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-nav-left {
+    width: 33.33%;
+}
+
+.banner {
+    background-image: url("images/gloom.jpg");
+    background-size: cover;
+    height: 1300px;
+}
+
+.overlay {
+    position: absolute;
+    background-color: black;
+    width: 33.33%;
+    height: 150px;
+    opacity: 0.2;
+    margin-top: 350px;
 }
 
 .main-nav-right {
     display: flex;
     flex-direction: column;
+    width: 66.67%;
 }
