@@ -1,3 +1,8 @@
+@font-face {
+    font-family: NorseBold;
+    src: url(/fonts/Norse-Bold.otf);
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -20,12 +25,26 @@ body {
 }
 
 .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.2);
     width: 33.33%;
-    height: 150px;
-    opacity: 0.2;
-    margin-top: 350px;
+    height: 200px;
+    margin-top: 300px;
+}
+
+.overlay-text{
+    text-align: center;
+    font-family: NorseBold;
+    font-weight: bold;
+    font-size: 72px;
+    color: white;
+}
+
+.icon {
+    width: 25%;
 }
 
 .main-nav-right {
